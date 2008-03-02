@@ -52,6 +52,7 @@ module Spec
                                                     " ",
                                                     "Builtin formats for stories: ",
                                                     "plain|p              : Plain Text",
+                                                    "progress|o           : Text progress",
                                                     "html|h               : A nice HTML report",
                                                     " ",
                                                     "FORMAT can also be the name of a custom formatter class",

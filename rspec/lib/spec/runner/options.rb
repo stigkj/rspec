@@ -22,10 +22,12 @@ module Spec
       }
 
       STORY_FORMATTERS = {
-        'plain' => ['spec/runner/formatter/story/plain_text_formatter', 'Formatter::Story::PlainTextFormatter'],
-            'p' => ['spec/runner/formatter/story/plain_text_formatter', 'Formatter::Story::PlainTextFormatter'],
-         'html' => ['spec/runner/formatter/story/html_formatter',       'Formatter::Story::HtmlFormatter'],
-            'h' => ['spec/runner/formatter/story/html_formatter',       'Formatter::Story::HtmlFormatter']
+                 'plain' => ['spec/runner/formatter/story/plain_text_formatter',    'Formatter::Story::PlainTextFormatter'],
+                     'p' => ['spec/runner/formatter/story/plain_text_formatter',    'Formatter::Story::PlainTextFormatter'],
+              'progress' => ['spec/runner/formatter/story/progress_bar_formatter',  'Formatter::Story::ProgressBarFormatter'],
+                     'o' => ['spec/runner/formatter/story/progress_bar_formatter',  'Formatter::Story::ProgressBarFormatter'],
+                  'html' => ['spec/runner/formatter/story/html_formatter',          'Formatter::Story::HtmlFormatter'],
+                     'h' => ['spec/runner/formatter/story/html_formatter',          'Formatter::Story::HtmlFormatter']
       }
 
       attr_accessor(
